@@ -33,4 +33,10 @@ Agents are coordinated using `CrewAI` with a **sequential task process**.
 ---
 
 ## 📁 Project Structure
-
+📦 crewai_gemini
+├── agents.py # Agent setup (roles, goals, LLM)
+├── tasks.py # Task definitions
+├── tools.py # Tool used by both agents
+├── crew.py # Execution logic
+├── .env # API keys (not committed)
+└── README.md # This file
